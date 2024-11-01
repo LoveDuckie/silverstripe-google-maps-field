@@ -5,3 +5,13 @@ composer.lock
 *.js.map
 *.css.map
 yarn-error.log
+
+/silverstripe-cache/
+/.env
+/themes/simple/
+/_resources/
+/public/_resources/
+/.graphql-generated/
+/public/_graphql/
+.DS_Store
+

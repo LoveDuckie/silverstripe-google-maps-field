@@ -19,8 +19,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/php/"
+            "LoveDuckie\\SilverStripe\\GoogleMapsField\\": "src/",
+            "LoveDuckie\\SilverStripe\\GoogleMapsField\\Tests\\": "tests/php/"
         }
     },
     "extra": {
@@ -29,5 +29,12 @@
         ]
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "phpstan/extension-installer": true,
+            "silverstripe/vendor-plugin": true
+        }
+    }
 }
