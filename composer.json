@@ -1,6 +1,7 @@
 {
     "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for Silverstripe CMS modules.",
+    "description": "A skeleton for Silverstripe CMS modules."
+    "homepage": "https://lucshelton.com",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
