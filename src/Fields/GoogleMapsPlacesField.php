@@ -1,12 +1,12 @@
 <?php
 
-namespace LoveDuckie\SilverStripe\GoogleMapsField\Forms;
+namespace LoveDuckie\SilverStripe\GoogleMapsField\Fields;
 
 use SilverStripe\Forms\TextField;
 use SilverStripe\View\Requirements;
 use SilverStripe\Core\Environment;
 
-class GooglePlacesField extends TextField
+class GoogleMapsPlacesField extends TextField
 {
     public function Field($properties = [])
     {
