@@ -8,7 +8,7 @@ class GoogleMapsLocation extends DataObject
 {
     private static $table_name = 'GoogleMapsLocation';
 
-    private static $db = [
+    private static array $db = [
         'Name' => 'Varchar(255)', // The name of the place or venue
         'StreetAddress' => 'Varchar(255)',
         'City' => 'Varchar(100)',
@@ -19,14 +19,14 @@ class GoogleMapsLocation extends DataObject
         'Longitude' => 'Decimal(9,6)',
     ];
 
-    private static $summary_fields = [
+    private static array $summary_fields = [
         'Name' => 'Name',
         'StreetAddress' => 'Street Address',
         'City' => 'City',
         'Country' => 'Country',
     ];
 
-    public function getTitle()
+    public function getTitle(): mixed
     {
         return $this->Name ?: $this->StreetAddress;
     }
